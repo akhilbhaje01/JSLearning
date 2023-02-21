@@ -1,0 +1,25 @@
+console.log("-----------------------step1---------------------------");
+
+function stringBasics(){
+console.log("My dream company is: Infosys");
+
+console.log("----------------------step2----------------------------");
+
+var yourHobby1 = "Cricket";
+var yourHobby2 = "Swimming";
+var yourHobby3 = "WatchingMovies";
+
+    console.log("My hobby1: ",yourHobby1,",","My hobby2: ",yourHobby2,",","My hobby3: ,",yourHobby3);
+
+    var yourHobb1 = yourHobby1.split("");
+    var yourHobb2 = yourHobby2.split("");
+    var yourHobb3 = yourHobby3.split("");
+
+console.log("Total no of character in each hobbies are:",yourHobb1.length,yourHobb2.length,yourHobb3.length);
+var sum =  yourHobb1.length+yourHobb2.length+yourHobb3.length;
+console.log("sum of total no. of characters in three hobbies are: ",sum);
+    
+}
+stringBasics();
+
+ 
